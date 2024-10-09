@@ -22,9 +22,9 @@ const Layout = ({ pageTitle,siteName, children }) => {
       <header className={header}>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        src="../images/logo.jpg"
       />
-      <img src="src\images\logo.jpg" alt="Site Logo" className={logo} />
+     
         <div>
           <h1 className={siteName}>Bikash Moktan</h1>
           <p className={slogan}>Your slogan goes here</p>
