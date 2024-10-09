@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Home Page" siteName="Bikash Moktan">
       <h2>I'm making this for you.</h2>
       <p>
         Do not ask theoretical questions. Theories solve less and confuse more. If there were no theories, there would be less problems. It is not that theories solve questions or problems. On the contrary, questions arise out of theories.
@@ -24,6 +24,6 @@ const IndexPage = () => {
   );
 }
 
-export const Head = () => <title>Home Page</title>;
+//export const Head = () => <title>Home Page</title>;
 
 export default IndexPage;

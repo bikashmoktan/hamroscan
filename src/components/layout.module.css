@@ -1,12 +1,28 @@
 .container {
   margin: auto;
-  max-width: 800px;
-  font-family: sans-serif;
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Limits max width for larger screens */
+  font-family: 'Arial', sans-serif; /* More modern font */
   padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Slightly brighter background */
+  border-radius: 10px; /* More pronounced rounding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow for better depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
+
+.container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow increase on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+} 
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; /* Reduced padding on smaller screens */
+  }
+}
+
+
 
 .header {
   background-color: rebeccapurple;
@@ -15,6 +31,27 @@
   border-radius: 8px 8px 0 0; /* Rounded corners on top */
   text-align: center;
 }
+
+.logo {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+  margin-right: 15px;
+}
+
+.siteName {
+  font-size: 1.5rem;
+  color: rebeccapurple;
+  margin: 0;
+}
+
+.slogan {
+  font-size: 1rem;
+  color: gray;
+}
+
+
+
+
 
 .footer {
   background-color: rebeccapurple;

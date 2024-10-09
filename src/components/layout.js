@@ -1,21 +1,36 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
   container,
   heading,
+  logo,
+  siteName,
+  slogan,
   navLinks,
   navLinkItem,
   navLinkText,
   header,
   footer,
+  
   mainContent,
 } from './layout.module.css';
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle,siteName, children }) => {
   return (
     <div className={container}>
       <header className={header}>
-        <h1>My Awesome Website</h1>
+      <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+      />
+      <img src="src\images\logo.jpg" alt="Site Logo" className={logo} />
+        <div>
+          <h1 className={siteName}>Bikash Moktan</h1>
+          <p className={slogan}>Your slogan goes here</p>
+        </div>
+
+   
         <nav>
           <ul className={navLinks}>
             <li className={navLinkItem}>
