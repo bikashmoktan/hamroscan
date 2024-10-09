@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this for you .</p>
+      <h2>I'm making this for you .</h2>
     <p>Do not ask theoretical questions. Theories solve less and confuse more. If there were no theories, there would be less problems. It is not that theories solve questions or problems. On the contrary, questions arise out of theories.
 
 And do not ask philosophical questions. Philosophical questions only seem to be questions, but they are not. That is why no answer has been possible. If a question is really a question then it is answerable, but if it is false, just a linguistic confusion, then it cannot be answered. Philosophy has gone on answering for centuries and centuries, but the questions still remain the same. However you answer a philosophical question you never answer it, because the question itself is false. It is not meant to be answered at all. The question is such that, intrinsically, no answer is possible.

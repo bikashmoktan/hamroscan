@@ -13,6 +13,12 @@
         "react-dom": "^18.2.0"
       }
     },
+"scripts": {
+  "build": "gatsby build"
+},
+
+
+
     "node_modules/@ampproject/remapping": {
       "version": "2.2.0",
       "license": "Apache-2.0",
