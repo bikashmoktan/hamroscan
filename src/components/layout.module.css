@@ -1,57 +1,56 @@
 .container {
   margin: auto;
   max-width: 800px;
-  font-family: 'Arial', sans-serif;
-  padding: 20px; /* Added padding for spacing */
-  background-color: #f9f9f9; /* Light background for contrast */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px 8px 0 0; /* Rounded corners on top */
+  text-align: center;
+}
+
+.footer {
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 0 0 8px 8px; /* Rounded corners on bottom */
+  margin-top: 20px; /* Spacing above footer */
+}
+
+.mainContent {
+  padding: 20px; /* Main content padding */
 }
 
 .heading {
-  color: rebeccapurple;
-  font-size: 2rem; /* Increased font size */
-  margin-bottom: 1rem; /* Spacing below heading */
-  text-align: center; /* Center the heading */
+  color: rebeccapurple; /* Heading color */
 }
 
-.nav-links {
+.navLinks {
   display: flex;
+  justify-content: center; /* Center the navigation */
   list-style: none;
-  padding-left: 0;
-  justify-content: center; /* Center the navigation links */
-  margin-bottom: 1.5rem; /* Spacing below nav links */
+  padding: 0;
+  margin: 10px 0 0; /* Margin for spacing */
 }
 
-.nav-link-item {
-  padding: 0 1rem; /* Adjusted horizontal padding */
+.navLinkItem {
+  padding: 0 1rem; /* Horizontal padding */
 }
 
-.nav-link-text {
-  color: black;
+.navLinkText {
+  color: white; /* Link color */
   text-decoration: none; /* Remove underline */
   transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
-.nav-link-text:hover {
-  color: rebeccapurple; /* Change color on hover */
-}
-
-p {
-  line-height: 1.6; /* Improved line spacing for readability */
-  margin-bottom: 1rem; /* Spacing between paragraphs */
-}
-
-@media (max-width: 600px) {
-  .container {
-      padding: 15px; /* Less padding on smaller screens */
-  }
-
-  .nav-link-item {
-      padding: 0 0.5rem; /* Adjust padding for smaller screens */
-  }
-
-  .heading {
-      font-size: 1.5rem; /* Smaller heading on mobile */
-  }
+.navLinkText:hover {
+  color: #ffd700; /* Gold color on hover */
 }
