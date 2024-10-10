@@ -4,7 +4,7 @@ import ImageGallery from '../components/ImageGallery';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page" siteName="Bikash Moktan">
+    <Layout pageTitle="Home Page" siteName="Hamroscan">
       <ImageGallery />
     </Layout>
   );
